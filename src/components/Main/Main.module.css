@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  width: 1120px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.main__content__left {
+  max-width: 400px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.film__title {
+  padding-bottom: 5px;
+  font-size: 90px;
+}
+
+.film__overview {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+.film__content {
+  padding-bottom: 200px;
+  font-size: 20px;
+}
+
+.button__film {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 60px;
+  margin-bottom: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #edfe7d;
+  border-radius: 50px;
+  background-color: #edfe7d;
+  box-shadow: 0px 0px 20px #edfe7d56;
+}
+
+.button__film:hover {
+  border: 2px solid rgb(255, 251, 0);
+  background-color: #edfe7dde;
+  box-shadow: 0px 0px 20px #edfe7d00;
+}
+
+.button__next {
+  cursor: pointer;
+  margin-top: 250px;
+  padding: 20px 60px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid rgb(255, 251, 0);
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.185);
+  box-shadow: 0px 0px 10px rgba(255, 251, 0, 0.253);
+}
+
+.button__next:hover {
+  border: 1px solid rgb(255, 251, 0);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0px 0px 20px #edfe7d0c;
+}
